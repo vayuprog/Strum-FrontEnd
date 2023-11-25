@@ -1,0 +1,36 @@
+.ThreeThree {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ThreeThree h1 {
+    color: #333;
+    text-align: center;
+}
+
+.ThreeThree form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ThreeThree label {
+    margin-bottom: 10px;
+}
+
+.ThreeThree input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.ThreeThree input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
